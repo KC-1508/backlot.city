@@ -1,0 +1,64 @@
+/* IMPORT */
+@import url("https://fonts.googleapis.com/css2?family=Secular+One&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Josefin+Sans&family=Secular+One&display=swap");
+
+/* COLOR */
+:root {
+  --back: #1c1b22;
+  --main: #2b2a33;
+  --text: #eaeaea;
+  /* --alt: #414141; */
+  /* --alt2: #0c0c0c; */
+  /* --main: #1c1c1c; */
+  /* --bklc: #daa700; */
+}
+
+/* INDEX.HTML */
+* {
+  margin: 0px;
+  padding: 0px;
+  overflow: hidden;
+  color: var(--text);
+}
+
+html,
+body {
+  margin: 2vh;
+  padding: 0px;
+  background-color: var(--back);
+}
+
+.main {
+  margin: 0px;
+  padding: 0px;
+  height: 92vh;
+  max-height: 92vh;
+  text-align: center;
+  background-color: var(--main);
+}
+
+.main-sub {
+  margin: 0px;
+  padding: 0px;
+  height: 92vh;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  justify-content: center;
+}
+
+#main-h1-1 {
+  font-size: 35px;
+  font-family: "Secular One", sans-serif;
+}
+
+#main-p1-1 {
+  font-size: 22px;
+  font-family: "Josefin Sans", sans-serif;
+}
+
+.main-sub iframe {
+  margin: 0px;
+  padding: 0px;
+  padding-top: 20px;
+}
